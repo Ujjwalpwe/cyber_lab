@@ -1,0 +1,40 @@
+nmap 192.168.62.129
+sudo nmap -v 192.168.62.129
+nmap -V
+man nmap
+nmap 192.168.62.129 192.168.62.130
+nmap 192.168.62.0/24 --exclude 192.168.62.130
+nmap --open 192.168.62.129
+nmap -A 192.168.62.129
+nmap -sA 192.168.62.129
+nmap -p 80 192.168.62.129
+nmap --packet-trace 192.168.62.129
+nmap --top-ports 10 192.168.62.129
+nmap -PN 192.168.62.130
+nmap -sP 192.168.62.130
+nmap -PS 192.168.62.129
+nmap -Pn 192.168.62.130
+sudo nmap -PU 192.168.62.130
+sudo nmap -PY 192.168.62.130
+sudo nmap -PE 192.168.62.129
+nmap -PP 192.168.62.129
+nmap -PM 192.168.62.129
+nmap -PO 192.168.62.129
+nmap -PR 192.168.62.129
+nmap --traceroute 192.168.62.131
+nmap -O 192.168.62.129
+nmap -v -O 192.168.62.129
+nmap -O --osscan-guess 192.168.62.129
+nmap -sV -O 192.168.62.129
+nmap -sV --version-trace 192.168.62.129
+nmap -sS 192.168.62.130
+nmap -sT 192.168.62.129
+nmap -sU 192.168.62.129
+sudo nmap -sN 192.168.62.129
+sudo nmap -sF 192.168.62.129
+sudo nmap -sX 192.168.62.131
+sudo nmap -sA 192.168.62.131
+nmap -sS --scanflags SYNFIN -T4 www.google.com
+nmap -sO 192.168.62.129
+nmap --send-eth 192.168.62.129
+nmap --send-ip 192.168.62.129
